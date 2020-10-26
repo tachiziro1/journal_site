@@ -1,4 +1,4 @@
-<h1>出品商品一覧</h1>
+<h1>論文一覧</h1>
 <ul>
 @foreach ($articles as $article)
     
@@ -6,4 +6,4 @@
 
 @endforeach
 </ul>
-<a href="articles/create">出品する</a>
+<a href="articles/create"><button>新しい論文を投稿する</button></a>
